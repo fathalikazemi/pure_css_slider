@@ -1,1 +1,13 @@
-/* Add css roles here */
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(88, 128, 168);;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: bold;
+}
