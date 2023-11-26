@@ -11,3 +11,11 @@ h1 {
     font-size: 36px;
     font-weight: bold;
 }
+
+/* set wrapper's styles
+ * wrapper is center aligned
+*/
+#wrapper {
+    width: 718px;
+    margin: 40px auto;
+}
