@@ -99,3 +99,21 @@ ul.thumbnails li a:hover span::before {
     left: 30px;
 }
 
+/*
+ * Create slide box 
+ */
+ ul.slides, ul.slides li, ul.slides img {
+     width: 705px;
+     height: 350px;
+ }
+
+ ul.slides {
+    clear: both;
+    border: 4px solid darkgray;
+    position: relative;
+}
+
+ul.slides li {
+    position:absolute;
+    z-index: 60;
+}
