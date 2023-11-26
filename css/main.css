@@ -28,3 +28,36 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
 }
+
+/* thumbnails
+ * width formula: 14.285714286 * 7 = 100
+ * List items must apear side by side; so float property is set to "left".
+*/
+ul.thumbnails li {
+    float: left;
+    width: 14.285714286%;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+ul.thumbnails li div.container a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80px;  /* because thumbnails are wide 80px */
+    margin: 0 auto;
+    height: 50px;
+}
+
+ul.thumbnails li div.container img {
+    width: 80px;
+    height: 40px;
+    border: 5px solid darkgray;
+}
