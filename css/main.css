@@ -19,3 +19,12 @@ h1 {
     width: 718px;
     margin: 40px auto;
 }
+
+/* Set style for h1
+ * A gap between h1 and elements which are below it.
+ * h1 horizantally is aligned center.
+ */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
